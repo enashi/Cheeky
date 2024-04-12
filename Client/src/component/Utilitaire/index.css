@@ -1,0 +1,529 @@
+#AcceuilForm h1.Acceuil{
+	font-style: oblique;
+	text-align: center;
+	margin: 15% auto;
+	background: linear-gradient(to right, yellow, pink);
+}
+
+body {
+	background-color: #C4D7ED;
+	font-family: sans-serif;
+}
+
+body img{
+	border-radius: 30px;
+}
+
+.Sign{
+	margin: 10px;
+	padding: 1.5%;
+	background: yellow;
+	border: 0;
+	border-radius: 10px;
+}
+
+#Footer{
+	position: relative;
+	background-color: #ABC8E2;
+	margin-top: 410px;
+}
+
+/* Conditions */
+#Conditions h1{
+	text-align: center;
+}
+
+/* NavBar */
+#NavBar{
+	background-color: #ABC8E2;
+	border-radius: 30px;
+	margin-top: -20px;
+	padding-bottom: 0.1px;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+#NavBar .Logo{
+	position: absolute;
+	padding-top: 7px;
+}
+
+#NavBar .Logo img{
+	border-radius: 40px;	
+}
+
+#NavBar .Titre{
+	font-style: oblique;
+	text-align: center;
+	color: yellow;
+	text-decoration: none;
+}
+
+#NavBar .Titre h1{
+	padding-top: 25px; 
+}
+
+#NavBar .Titre:hover{
+	color: pink;
+}
+
+#NavBar .Menu{
+	text-align: right;
+	margin-top: -30px;
+}
+
+#NavBar .Menu ul li{
+	list-style-type: none;
+}
+
+#NavBar .Menu ul li a{
+	text-decoration: none;
+	color: yellow;
+	margin: 15px 15px;
+	padding: 15px;
+}
+
+#NavBar .MenuCRS{
+	display: none;
+}
+
+#NavBar .Menu ul li a:hover{
+	color: pink;
+}
+
+#NavBar .Menu ul li:hover .MenuCRS{
+	display: block;
+	margin-bottom: 10px;
+	border-style: double;
+	border-color: #A1BEDC;
+}
+
+#NavBar .Menu ul li:hover .MenuCRS li{
+	margin-right: 20px;
+	padding: 10px;
+}
+
+#NavBar .Menu ul li:hover .MenuCRS li a{
+	margin-left: -20px;
+}
+
+#NavBar .CRS a:hover{
+	color: pink;
+}
+
+#NavBar button{
+	margin-right: 10px;
+	font-size: 15px;
+	width: 110px;
+	height: 35px;
+	background: none;
+	border: none;
+	color: yellow;
+	cursor: pointer;
+}
+
+#NavBar button:hover{
+	color: pink;
+}
+
+/* Contact */
+#ContactForm .entete h1{
+	text-align: center;
+	color: #375D81;
+}
+
+div#CorpsContact div{
+	display: inline-flex;
+	width: 49%;
+	height: 484px;
+}
+
+div#CorpsContact div.Etudiant1{
+	width: 360px;
+	height: 400px;
+	margin: 6% auto;
+	margin-left: 17%;
+	background: white;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+div#CorpsContact div.Etudiant2{
+	width: 360px;
+	height: 400px;
+	margin-left: 15%;
+	background: white;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+#CorpsContact h4{
+	text-align: center;
+	margin-bottom: 40px;
+	color: #375D81;
+}
+
+#CorpsContact .Input{
+	left: 10px;
+	top: 10px;
+	position: relative;
+	width: 340px;
+	height: 380px;
+	transition: 0.5s;
+	background-color: #C4D7ED;
+	border-radius: 30px;
+}
+
+/* SignIn */
+.LoginForm .Form_box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 3% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+.LoginForm form input{
+	width: 80%;
+	padding: 10px 20px;
+	margin: 5px 5px;
+	margin-bottom: 10px;
+	border: 0;
+	border-bottom: 1px solid #ABC8E2;
+}
+
+.LoginForm h4{
+	text-align: center;
+	padding-top: 50px;
+	color: #375D81;
+
+}
+
+.LoginForm .Submit{
+	width: 110px;
+	height: 35px;
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border-radius: 30px;
+	border: 0;
+	outline: none;
+	color: #375D81;
+	width: 70%;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+/* Register */
+#Create{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 3% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+#Create h4{
+	text-align: center;
+	padding-top: 50px;
+	color: #375D81;
+
+}
+
+#Create input{
+	width: 80%;
+	padding: 10px 20px;
+	margin: 5px 5px;
+	margin-bottom: 10px;
+	border: 0;
+	border-bottom: 1px solid #ABC8E2;
+}
+
+#Create button{
+	width: 110px;
+	height: 35px;
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border-radius: 30px;
+	border: 0;
+	outline: none;
+	color: #375D81;
+	width: 70%;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+#Create label{
+	color: #375D81;
+}
+
+#Create a{
+	text-decoration: none;
+}
+
+#Create a:hover{
+	color: pink;
+}
+
+/* Card */
+.Card {
+	display: inline-flex;
+	background-color:#E1E6FA;
+	width: 50%;
+	border-radius: 30px;
+	margin: 1%;
+}
+
+.Card div {
+	background-color: white;
+	border-radius: 30px;
+	display:inline;
+	margin: 1%;
+}
+
+.Card .card-right{
+	width: 100%;
+}
+
+.Card .card-right h2{
+	color: rgb(24, 118, 173);
+}
+
+.Card .card-right h2:hover{
+	color: pink;
+}
+
+.Card .card-right span{
+	font-style: italic;
+	font-size: small;
+}
+
+.Card p{
+	color: pink;
+}
+
+/* NewPostForm */
+.Post textarea{
+	resize: none;
+	border-style: dashed;
+	border-radius: 10px;
+	border-color: pink;
+}
+
+.Post div .btn-send button{
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border: 10%;
+	border-radius: 30px;
+	width: 10%;
+}
+
+/* Thread */
+.thread-container ul{
+	list-style: none;
+}
+
+/* EditDeletComment */
+.edit-comment h5{
+	font-style: italic;
+}
+
+/* CardComment */
+.comments-container span{
+	font-style: italic;
+}
+
+.comments-container .pseudo h3{
+	color: rgb(24, 118, 173);
+}
+
+.comments-container .pseudo h3:hover{
+	color: pink;
+}
+
+.comments-container form .commenter{
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border: 10%;
+	border-radius: 30px;
+}
+
+.comments-container form .commentaire{
+	width: 80%;
+	padding: 10px 20px;
+	margin: 5px 5px;
+	margin-bottom: 10px;
+	border: 0;
+	border-bottom: 1px solid #ABC8E2;
+}
+
+/* UploadImg */
+#UploadImg .file{
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border: 10%;
+	border-radius: 30px;
+	width: 20%;
+}
+
+#UploadImg .input{
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border: 10%;
+	border-radius: 30px;
+	width: 10%;
+}
+
+/* UpdateProfil */
+#Profil{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin: 3% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#Profil h1{
+	color: pink;
+}
+
+#Profil h5{
+	font-style: italic;
+}
+
+#Profil .bio-update h3{
+	font-style: italic;
+	color: yellow;
+	margin: auto;
+}
+
+#Profil .bio-update {
+	width: 100%;
+	height: 100%;
+	background: #C4D7ED;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+#Profil .bio-update p{
+	font-style: italic;
+	color: yellow;
+}
+
+#Profil .bio-update button{
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border: 10%;
+	border-radius: 30px;
+	width: 10%;
+}
+
+#Profil ul{
+	list-style: none;
+}
+
+#Profil .popup-profil-container{
+	width: 30%;
+	background: #C4D7ED;
+	overflow: hidden;
+	border-radius: 10px;
+	margin: auto;
+	color: yellow;
+}
+
+#Profil .profil-post{
+	width: 100%;
+	height: 100%;
+	background: rgb(241, 209, 215);
+	border-radius: 10px;
+}
+
+/* Home */
+#home .main-home{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin: 3% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#home .right-side{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin: 3% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	text-align: center;
+	color: pink;
+}
+
+/* FriendsHint */
+.get-friends-container ul{
+	list-style: none;
+}
+
+.get-friends-container p{
+	color: rgb(24, 118, 173);
+}
+
+.get-friends-container p:hover{
+	color: pink;
+}
+
+/* Follow */
+#Follow button{
+	background: linear-gradient(to right, #ABC8E2, #E1E6FA);
+	border: 10%;
+	border-radius: 30px;
+	width: 30%;
+	margin: 1%;
+}
+
+/* VisitProfil */
+#VisitProfil .update-container{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin: 3% auto;
+	background: white;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#VisitProfil .update-container h1{
+	color: pink;
+}
+
+#VisitProfil .update-container h1{
+	color: pink;
+}
+
+#VisitProfil .update-container h5{
+	font-style: italic;
+}
+
+#VisitProfil div .Bio{
+	width: 100%;
+	height: 100%;
+	background: #C4D7ED;
+	overflow: hidden;
+	border-radius: 10px;
+	color: yellow;
+}

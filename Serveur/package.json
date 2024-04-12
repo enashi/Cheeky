@@ -1,0 +1,33 @@
+{
+  "name": "cheeky",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "ihsane",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "express-session": "^1.17.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "multer": "^2.0.0-rc.1",
+    "reactjs-popup": "^2.0.5",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
